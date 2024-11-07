@@ -1,4 +1,4 @@
-module github.com/ianzhang/watchmod
+module github.com/ianzhang366/watchmod
 
 go 1.23.2
 

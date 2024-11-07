@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ianzhang/watchmod"
+	"github.com/ianzhang366/watchmod"
 )
 
 func main() {
