@@ -2,7 +2,6 @@ package watchmod
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"time"
@@ -37,7 +36,7 @@ func touch() {
 	}
 
 	b := []byte("hello watchmod!")
-	err = ioutil.WriteFile(fileName, b, 0644)
+	err = os.WriteFile(fileName, b, 0644)
 	if err != nil {
 		fmt.Println("Could not write to: " + fileName)
 		return

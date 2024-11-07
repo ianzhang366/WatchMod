@@ -1,8 +1,7 @@
-module github.com/Cyphrme/watchmod
+module github.com/ianzhang/watchmod
 
-go 1.19
+go 1.23.2
 
-require (
-	github.com/DisposaBoy/JsonConfigReader v0.0.0-20201129172854-99cf318d67e7
-	github.com/fsnotify/fsnotify v1.4.9
-)
+require github.com/fsnotify/fsnotify v1.8.0
+
+require golang.org/x/sys v0.26.0 // indirect
